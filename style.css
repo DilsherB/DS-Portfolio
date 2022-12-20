@@ -3,10 +3,10 @@
 *,
 *:after,
 *:before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f0f2f5;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f2f5;
 }
