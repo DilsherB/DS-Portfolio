@@ -10,3 +10,17 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #f0f2f5;
 }
+
+.nav-height {
+    height: 100vh;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-item > .fa {
+    display: none;
+  }
+
+  .nav-height {
+    height: fit-content;
+  }
+}
