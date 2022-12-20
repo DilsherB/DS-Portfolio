@@ -9,27 +9,30 @@
     <link rel="stylesheet" href="style.css">
     <title>Dilsher(developer)'s Portfolio</title>
 </head>
-<body class="bg-secondary">
+<body>
     <nav class="container-fluid navbar navbar-expand-sm fixed-top navbar-light bg-light">
         <div class="container">
             <div>
                 <img src="images/Farhan.jpeg" alt="brand logo" class="rounded-circle" width="50px" height="50px">
                 <a class="navbar-brand" href="#">Dilsher</a>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <button class="navbar-toggler" type="button" id="menu" data-bs-toggle="collapse" 
+                data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
                 <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-item text-center" id="nav-link" 
+                            href="#recentWorks">Portfolio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-item text-center" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-item text-center" href="#contact">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -90,7 +93,7 @@
         </a>
     </div>
 <hr class="bg-white fw-bolder">
-    <section class="container-fluid bg-white rounded-3">
+    <section class="container-fluid bg-white rounded-3" id="recentWorks">
         <h2 class="text-center p-5 text-decoration-underline fs-1">My recent works</h2>
         <section class="row d-flex justify-content-around">
             <div class="col-md-4 my-3">
@@ -199,13 +202,13 @@
     </section>
 
     <hr class="bg-white">
-    <section class="container-fluid bg-white bg-image text-center p-5 rounded-3">
+    <section class="container-fluid bg-white bg-image text-center py-5 rounded-3" id="about">
         <div style="background-image: url('images/aboutMe.svg'); 
                 background-size: contain; 
                 background-position: center; 
                 background-repeat: no-repeat;">
         
-            <div class="p-5 mx-5">
+            <div class="py-5 mx-5">
                 <h2 class="mb-3">About Me</h2>
                 <div class="row justify-content-center">
                     <p class="col-md-8"> I can help you build a product , feature or website Look through some of my work and 
@@ -271,7 +274,8 @@
     </section>
 
     <hr class="bg-white fw-bolder">
-    <section class="container-fluid bg-white bg-image rounded-3 p-5">
+    <section class="container-fluid bg-white bg-image rounded-3 pt-5" id="contact">
+        <h2 class="bg-white text-center text-decoration-underline">Send a message</h2>
         <div class="row mx-5 py-5">
             <div class="col-md-5 fs-4 mt-5">
                 <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
@@ -295,50 +299,28 @@
     </section>
     
     <img src="images/hrLine.svg" alt="" class="bg-white py-4">
-    <footer class="bg-white text-ceter ro d-flex justify-content-center">
-        <div class="pb-5">
-        <a href="https://twitter.com/_brilliantMindz" target="_blank">
-            <button class="btn btn-outline-primary" type="button">
-                <span> 
-                    <i class="fa-brands fa-twitter"></i>
-                </span> 
-                <span>Twitter</span>
-            </button>
-        </a>
-        <a href="https://www.facebook.com/dilsherb" target="_blank">
-            <button class="btn btn-outline-primary" type="button">
-                <span> 
-                    <i class="fa-brands fa-facebook"></i>
-                </span> 
-                <span>Facebook</span>
-            </button>
-        </a>
-        <a href="https://www.linkedin.com/in/dilsher-balouch-7139432a/" target="_blank">
-            <button class="btn btn-outline-primary" type="button">
-                <span>
-                    <i class="fa-brands fa-linkedin"></i>
-                </span> 
-                <span>LinkedIn</span>
-            </button>
-        </a>
-        <a href="https://wa.me/+966562680406" target="_blank">
-            <button class="btn btn-outline-success" type="button">
-                <span> 
-                    <i class="fa-brands fa-whatsapp"></i>
-                </span> 
-                <span>Whatsapp</span>
-            </button>
-        </a>
-        <a href="https://github.com/DilsherB" target="_blank">
-            <button class="btn btn-outline-dark" type="button">
-                <span>
-                    <i class="fa-brands fa-github"></i>
-                </span> 
-                <span>GitHub</span>
-            </button>
-        </a>
-    </div>
+    <footer class="row bg-white">
+        <div class="col-md-5"></div>
+        <div class="pb-4 col-md-2 justify-content-around d-flex">
+            <a href="https://twitter.com/_brilliantMindz" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i>
+            </a>
+            <a href="https://www.facebook.com/dilsherb" target="_blank">
+                <i class="fa-brands fa-facebook fa-lg"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/dilsher-balouch-7139432a/" target="_blank">
+                <i class="fa-brands fa-linkedin fa-lg"></i>
+            </a>
+            <a href="https://wa.me/+966562680406" target="_blank">
+                <i class="fa-brands fa-whatsapp fa-lg"></i>
+            </a>
+            <a href="https://github.com/DilsherB" target="_blank">
+                <i class="fa-brands fa-github fa-lg"></i>
+            </a>
+        </div>
+        <div class="col-md-5"></div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
 </html>
