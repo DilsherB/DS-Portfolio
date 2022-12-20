@@ -12,7 +12,7 @@ body {
 }
 
 .nav-height {
-    height: 100vh;
+  height: 100vh;
 }
 
 @media only screen and (min-width: 768px) {
@@ -21,6 +21,6 @@ body {
   }
 
   .nav-height {
-    height: fit-content;
+    height: auto;
   }
 }
