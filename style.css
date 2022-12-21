@@ -1,12 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 
 *,
-*:after,
-*:before {
-    box-sizing: border-box;
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f0f2f5;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f2f5;
+}
+
+.nav-height {
+  height: 100vh;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-item > .fa {
+    display: none;
+  }
+
+  .nav-height {
+    height: auto;
+  }
 }
