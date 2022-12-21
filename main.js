@@ -16,7 +16,7 @@ const projects = [
     featureImage: 'project1.svg',
     tools: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
     liveVersion: 'https://dilsherb.github.io/Portfolio/',
-    source: 'https://github.com/DilsherB/Portfolio'
+    source: 'https://github.com/DilsherB/Portfolio',
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const projects = [
     featureImage: 'project2.svg',
     tools: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
     liveVersion: 'https://dilsherb.github.io/Portfolio/',
-    source: 'https://github.com/DilsherB/Portfolio'
+    source: 'https://github.com/DilsherB/Portfolio',
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const projects = [
     featureImage: 'project2.svg',
     tools: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
     liveVersion: 'https://dilsherb.github.io/Portfolio/',
-    source: 'https://github.com/DilsherB/Portfolio'
+    source: 'https://github.com/DilsherB/Portfolio',
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ const projects = [
     featureImage: 'project2.svg',
     tools: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
     liveVersion: 'https://dilsherb.github.io/Portfolio/',
-    source: 'https://github.com/DilsherB/Portfolio'
+    source: 'https://github.com/DilsherB/Portfolio',
   },
   {
     id: 5,
@@ -56,7 +56,7 @@ const projects = [
     featureImage: 'project2.svg',
     tools: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
     liveVersion: 'https://dilsherb.github.io/Portfolio/',
-    source: 'https://github.com/DilsherB/Portfolio'
+    source: 'https://github.com/DilsherB/Portfolio',
   },
   {
     id: 6,
@@ -66,9 +66,9 @@ const projects = [
     featureImage: 'project2.svg',
     tools: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
     liveVersion: 'https://dilsherb.github.io/Portfolio/',
-    source: 'https://github.com/DilsherB/Portfolio'
-  }
-]
+    source: 'https://github.com/DilsherB/Portfolio',
+  },
+];
 
 const myProjetcs = document.querySelector('#recentWorks');
 projects.forEach((project) => {
