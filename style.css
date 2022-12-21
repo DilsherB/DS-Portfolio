@@ -15,7 +15,7 @@ body {
   height: 100vh;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 580px) {
   .nav-item > .fa {
     display: none;
   }
