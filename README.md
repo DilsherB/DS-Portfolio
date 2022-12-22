@@ -19,15 +19,17 @@ REQUIRED SECTIONS:
 - Acknowledgements
 - License
 
+OPTIONAL SECTIONS:
+- FAQ
+
 After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="![My Logo](images/Farhan.jpeg)" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>README</b></h3>
+  <h3><b>Portfolio (Dilsher Balouch)</b></h3>
 
 </div>
 
@@ -52,38 +54,28 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
-> This is a project to showcase my work in the field of software Development.
-
-**[Hello Microverse]** is a plateform from which I am learning  this "Software Development" skill and I am really  happy that I choose this plateform.
+> It is about me i.e. What I am capable for and how much and what I have done so far.
 
 ## 🛠 Built With <a name="built-with"></a>
-This website is built by using HTML, CSS and JavaScript.
+
+### Tech Stack <a name="tech-stack"></a>
+
+> The project is using following technologies upto now.
 
 <details>
-  <summary>Self</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://html.com/">HTML</a></li>
+    <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
+    <li><a href="https://getbootstrap.com/">BootStrap</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
   </ul>
 </details>
 
@@ -91,11 +83,13 @@ This website is built by using HTML, CSS and JavaScript.
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[key_feature_1]** This website shows you how capable I am to do the tasks related to "Software Development", "Web Development"
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[About_Me]**
+> Here you can read about me.
+- **[Contact_Me]**
+> You can contact me through contact form on my poftfolio's end.
+- **[My_Projects]**
+> You can see what I havd done so far.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,42 +97,131 @@ This website is built by using HTML, CSS and JavaScript.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-https://dilsherb.github.io/Portfolio/
+> click to see live demo.
+
+- [Live Demo Link](https://dilsherb.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-In order to run this project you only need a web browser and internet connection.
+## 💻 Getting Started <a name="getting-started"></a>
 
-<!-- Authors -->
+> You can download and try the source code.
 
-# 📖 [Authors] <a name="authors"></a>
-Dilsher Balouch
+To get a local copy up and running, follow these steps.
 
-<!-- Future Features -->
+### Prerequisites
 
-# 📖 [Future Features] <a name="future-features"></a>
-I'll upload all my work and in near future you will be able to visit the websites i made.
+In order to run this project you need:
 
-<!-- Contributing -->
+> 1. A Browser
 
-# 📖 [Contributing] <a name="contributing"></a>
-Here are the contributores of this project
-1. Alice Gathoni Mirigo
-2. Alwyn Androvelle
-3. Dilsher Balouch
-4. Sohail Batool
+### Setup
 
-<!-- Show your support -->
+Clone this repository to your desired folder:
 
-# 📖 [Show your support] <a name="support"></a>
-Please support me to achieve my goals in the field of web-development
+### to reach your folder
+> cd my-folder
+### to initialize your folder as git folder
+> git init
+### to clone the project
+> git clone https://github.com/DilsherB/DS-Portfolio.git
 
-<!-- Acknowledgements -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# 📖 [Acknowledgements] <a name="acknowledgements"></a>
+<!-- AUTHORS -->
 
-<!-- License -->
+## 👥 Authors <a name="authors"></a>
 
-# 📖 [License] <a name="license"></a>
+> Anthony Martin
+> Alice Gathoni Mirigo
+> Alwyn Androvelle
+> Tobby
+> Sohail
+
+👤 **Dilsher Balouch**
+
+- GitHub: [@DilhserB](https://github.com/DilsherB)
+- Twitter: [@_brilliantMindz](https://twitter.com/_brilliantMindz)
+- LinkedIn: [brilliantMindz](https://linkedin.com/in/brilliantMindz)
+
+👤 **Alice Gathoni Mirigo**
+
+- GitHub: [@alicemirigo92](https://github.com/alicemirigo92)
+
+👤 **Anthony Martin**
+
+- GitHub: [@anthonymr](https://github.com/anthonymr)
+- Twitter: [@anthonymr](https://twitter.com/anthonymr)
+- LinkedIn: [anthonymr](https://linkedin.com/in/anthonymr)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **Responsive Design**
+- [ ] **PopUp Modal**
+- [ ] **Dynamic Data in Modals & Projects**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/DilsherB).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> Write a message to encourage readers to support your project
+
+If you like this project please support by visiting and sharing my website <a href="https://dilsherb.github.io/Portfolio/">Visit my Portfolio</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank to thank the collaborators(Anthony, Alice, Alwyn, Sohail) and specially to Microverse
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **what you use to make it responsive**
+
+  - Bootstrap 5
+
+- **How you display data from database/objects**
+
+  - using loop in main.js
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
