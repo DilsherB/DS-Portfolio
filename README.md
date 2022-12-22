@@ -84,11 +84,11 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 
-- **[About_Me]**
+- **About Me**
 > Here you can read about me.
-- **[Contact_Me]**
+- **Contact Me**
 > You can contact me through contact form on my poftfolio's end.
-- **[My_Projects]**
+- **My Projects**
 > You can see what I havd done so far.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
