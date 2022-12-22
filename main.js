@@ -75,29 +75,29 @@ projects.forEach((project) => {
   const works = document.createElement('works');
   works.innerHTML = `
   <section class="row d-flex justify-content-around">
-    <div class="col-md-4 my-3">
-        <div class="card">
+    
+        <div class="card my-3 py-3">
             <img src="images/${project.featureImage}" alt="Project ${project.id}">
             <div class="card-body">
-                <h5 class="card-title text-center">${project.name}<br> ${project.company}</h5>
-                <div class="d-flex justify-content-around">
-                    <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>${project.tools[0]}</button>
-                    <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>${project.tools[1]}</button>
-                    <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>${project.tools[2]}</button>
-                    <button class="btn btn-secondary btn-outline-success px-1 rounded-3" disabled>${project.tools[3]}</button>
+                <h3 class="card-title text-center">${project.name}<br> ${project.company}</h3>
+                <div class="d-flex gap-1">
+                    <button class="btn btn-secondary btn-outline-success rounded-3" disabled>${project.tools[0]}</button>
+                    <button class="btn btn-secondary btn-outline-success rounded-3" disabled>${project.tools[1]}</button>
+                    <button class="btn btn-secondary btn-outline-success rounded-3" disabled>${project.tools[2]}</button>
+                    <button class="btn btn-secondary btn-outline-success rounded-3" disabled>${project.tools[3]}</button>
                 </div>
                 <div class="text-center">
                     <button type="button" class="btn btn-success m-3 showModal" data-bs-toggle="modal" data-bs-target="#project${project.id}">See Project</button>
                     <div class="modal fade" id="project${project.id}">
-                        <div class="modal-dialog bg-white rounded-3">
+                        <div class="modal-dialog bg-white rounded-3 modal-lg">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                                 </div>
                                 <img class="mx-2" src="images/${project.featureImage}" alt="Project ${project.id}">
                                 <div class="d-flex justify-content-between m-2">
-                                  <h3> ${project.name}</h3>
-                                  <div>
+                                  <h3 class="col-md-6 d-flex justify-content-start"> ${project.name}</h3>
+                                  <div class="col-md-6 d-flex justify-content-end gap-3">
                                     <a href="https://dilsherb.github.io/Portfolio/" target="_blank">  
                                       <button type="button" class="btn btn-success px-1">See live
                                         <i class="fa fa-arrow-up-right-from-square fa-lg"></i>
@@ -110,20 +110,19 @@ projects.forEach((project) => {
                                     </a>
                                   </div>
                                 </div>
-                                  <ul class="py- p-0 d-flex" id="body${project.id}">
-                                      <li class="btn btn-sm bg-light" disabled>${project.tools[0]}</button>
-                                      <li class="btn ms-2 btn-sm bg-light" disabled>${project.tools[1]}</button>
-                                      <li class="btn ms-2 btn-sm bg-light" disabled>${project.tools[2]}</button>
-                                      <li class="btn ms-2 btn-sm bg-light" disabled>${project.tools[3]}</button>
+                                  <ul class="m-2 p-0 d-flex" id="body${project.id}">
+                                      <li class="btn btn-sm rounded-pill langsBg" disabled>${project.tools[0]}</button>
+                                      <li class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[1]}</button>
+                                      <li class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[2]}</button>
+                                      <li class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[3]}</button>
                                   </ul>
-                                <div class="mb-3"> ${project.description}</div>
+                                <div class="mx-2 mb-4"> ${project.description}</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
   </section>
     `;
   myProjetcs.appendChild(works);
