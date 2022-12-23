@@ -33,6 +33,10 @@ body {
   visibility: hidden;
 }
 
+#validationMsg {
+  color: red;
+}
+
 @media only screen and (min-width: 580px) {
   .nav-item > .fa {
     display: none;

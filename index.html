@@ -183,18 +183,19 @@
                 <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
             </div>
             <div class="col-md-7">
-                <form action="https://formspree.io/f/mgebwzzy" method="post">
+                <form action="https://formspree.io/f/mgebwzzy" method="post" id="contact">
                     <div class="row">
                         <input class="col-md-6 lh-lg rounded px-2 mb-3" type="text" id="fName" placeholder="First Name">
                         <input class="col-md-6 lh-lg rounded px-2 mb-3" type="text" id="lName" placeholder="Last Name">
                     </div>
                     <div class="row">
-                        <input class="col-md-12 lh-lg rounded px-2 mb-3" type="email" placeholder="Email address">
+                        <input class="col-md-12 lh-lg rounded px-2 mb-3" type="email" id="email" placeholder="Email address">
                     </div>
                     <div class="row">
                         <textarea name="msg" id="msg" cols="30" rows="5" class="col-md-12 lh-lg rounded px-2"></textarea>
                     </div>
-                    <button type="submit" class="row btn btn-success mt-4">Get in touch</button>
+                    <span id="validationMsg"></span><br>
+                    <button id="submit" type="submit" class="row btn btn-success mt-4">Get in touch</button>
                 </form>
             </div>
         </div>
