@@ -139,13 +139,3 @@ projects.forEach((project) => {
     `;
   myProjetcs.appendChild(works);
 });
-
-// form validation (only email)
-const email = document.querySelector('#email').value;
-const form = document.querySelector('#contact');
-form.addEventListener('submit', (event) => {
-  if(email != email.toLowerCase()){
-    event.preventDefault();
-    document.getElementById('validationMsg').innerHTML = "Please use all small letters in Email"
-  }
-});
