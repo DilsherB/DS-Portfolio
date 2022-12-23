@@ -144,8 +144,8 @@ projects.forEach((project) => {
 const email = document.querySelector('#email').value;
 const form = document.querySelector('#contact');
 form.addEventListener('submit', (event) => {
-  if(email != email.toLowerCase()){
+  if (email !== email.toLowerCase()) {
     event.preventDefault();
-    document.getElementById('validationMsg').innerHTML = "Please use all small letters in Email"
+    document.getElementById('validationMsg').innerHTML = 'Please use all small letters in Email';
   }
 });
