@@ -28,6 +28,11 @@ body {
   height: 400px;
 }
 
+#modalBtnsDt {
+  display: none;
+  visibility: hidden;
+}
+
 @media only screen and (min-width: 580px) {
   .nav-item > .fa {
     display: none;
@@ -35,5 +40,15 @@ body {
 
   .nav-height {
     height: auto;
+  }
+
+  #modalBtnsDt {
+    display: block;
+    visibility: visible;
+  }
+  
+  #modalBtnsMb {
+    display: none;
+    visibility: hidden;
   }
 }

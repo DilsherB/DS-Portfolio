@@ -97,7 +97,7 @@ projects.forEach((project) => {
                                 <img class="mx-2" src="images/${project.featureImage}" alt="Project ${project.id}">
                                 <div class="d-flex justify-content-between m-2">
                                   <h3 class="col-md-6 d-flex justify-content-start"> ${project.name}</h3>
-                                  <div class="col-md-6 d-flex justify-content-end gap-3">
+                                  <div class="col-md-6 d-flex justify-content-end gap-3" id="modalBtnsDt">
                                     <a href="https://dilsherb.github.io/Portfolio/" target="_blank">  
                                       <button type="button" class="btn btn-success px-1">See live
                                         <i class="fa fa-arrow-up-right-from-square fa-lg"></i>
@@ -110,13 +110,25 @@ projects.forEach((project) => {
                                     </a>
                                   </div>
                                 </div>
-                                  <ul class="m-2 p-0 d-flex" id="body${project.id}">
+                                  <ul class="mx-2 p-0 d-flex" id="body${project.id}">
                                       <li class="btn btn-sm rounded-pill langsBg" disabled>${project.tools[0]}</button>
                                       <li class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[1]}</button>
                                       <li class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[2]}</button>
                                       <li class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[3]}</button>
                                   </ul>
-                                <div class="mx-2 mb-4"> ${project.description}</div>
+                                <div class="mx-2"> ${project.description}</div>
+                                <div class="d-flex justify-content-center gap-3 mb-2" id="modalBtnsMb">
+                                    <a href="https://dilsherb.github.io/Portfolio/" target="_blank">  
+                                      <button type="button" class="btn btn-success px-1">See live
+                                        <i class="fa fa-arrow-up-right-from-square fa-lg"></i>
+                                      </button>
+                                    </a>
+                                    <a href="https://github.com/DilsherB/DS-Portfolio" target="_blank">
+                                      <button type="button" class="btn btn-success px-1">See source
+                                        <i class="fa-brands fa-github fa-lg"></i>
+                                      </button>
+                                    </a>
+                                  </div>
                             </div>
                         </div>
                     </div>
