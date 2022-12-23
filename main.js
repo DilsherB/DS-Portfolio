@@ -149,3 +149,15 @@ form.addEventListener('submit', (event) => {
     document.getElementById('validationMsg').innerHTML = 'Please use all small letters in Email';
   }
 });
+
+var user = {
+  first: document.querySelector('#fName').value,
+  last: document.querySelector('#lName').value,
+  email: document.querySelector('#email').value,
+  message: document.querySelector('msg').value,
+}
+var lfName = localStorage.setItem(user.first);
+var llName = localStorage.setItem(user.last);
+var lemail = localStorage.setItem(user.email);
+var lmsg = localStorage.setItem(user.message);
+
