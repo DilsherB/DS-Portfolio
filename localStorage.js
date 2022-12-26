@@ -1,5 +1,5 @@
 const fields = document.querySelectorAll('.formData');
-let localData = {
+const localData = {
   fName: '',
   lName: '',
   email: '',
@@ -11,9 +11,9 @@ fields.forEach((field) => {
     localStorage.setItem('contactFormData', JSON.stringify(localData));
   });
 });
-let retrievedData = JSON.parse(localStorage.getItem('contactFormData'));
+const retrievedData = JSON.parse(localStorage.getItem('contactFormData'));
 window.addEventListener('load', () => {
-fields.forEach((field) => {
+  fields.forEach((field) => {
   field.value = retrievedData[field.name];
-});
-});
+    });
+  });
