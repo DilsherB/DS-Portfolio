@@ -14,6 +14,6 @@ fields.forEach((field) => {
 const retrievedData = JSON.parse(localStorage.getItem('contactFormData'));
 window.addEventListener('load', () => {
   fields.forEach((field) => {
-  field.value = retrievedData[field.name];
-    });
+    field.value = retrievedData[field.name];
   });
+});
