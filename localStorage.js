@@ -20,4 +20,4 @@ window.addEventListener("load", () => {
     document.getElementById("email").value = retrievedData.email;
     document.getElementById("msg").value = retrievedData.msg;
   };
-}
+})
