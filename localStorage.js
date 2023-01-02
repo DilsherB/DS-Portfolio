@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const fields = document.querySelectorAll(".formData");
 const localData = {
   fName: "",
