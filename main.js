@@ -43,7 +43,7 @@ const projects = [
     name: 'Portfolio',
     company: 'Myself',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featureImage: 'portfolio.png',
+    featureImage: 'portfolio.svg',
     tools: ['BootStrap', 'CSS', 'JavaScript', 'HTML'],
     liveVersion: 'https://dilsherb.github.io/Portfolio/',
     source: 'https://github.com/DilsherB/DS-Portfolio',
