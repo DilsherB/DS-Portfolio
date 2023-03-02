@@ -22,7 +22,7 @@ const projects = [
     id: 2,
     name: 'TODO List',
     company: 'for Practice',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description: 'Hi! Here I used localStorage to impliment the CRUD functionality. For further detail please click "see live" or "see source".',
     featureImage: 'todo list.png',
     tools: ['Webpack', 'CSS', 'JavaScript', 'HTML'],
     liveVersion: 'https://dilsherb.github.io/TODO-List/dist/',
