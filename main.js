@@ -98,12 +98,12 @@ projects.forEach((project) => {
                                 <div class="d-flex justify-content-between m-2">
                                   <h3 class="col-md-6 d-flex justify-content-start"> ${project.name}</h3>
                                   <div class="col-md-6 d-flex justify-content-end gap-3" id="modalBtnsDt">
-                                    <a href="https://dilsherb.github.io/Portfolio/" target="_blank">  
+                                    <a href="${project.liveVersion}" target="_blank">  
                                       <button type="button" class="btn btn-success px-1">See live
                                         <i class="fa fa-arrow-up-right-from-square fa-lg"></i>
                                       </button>
                                     </a>
-                                    <a href="https://github.com/DilsherB/DS-Portfolio" target="_blank">
+                                    <a href="${project.source}" target="_blank">
                                       <button type="button" class="btn btn-success px-1">See source
                                         <i class="fa-brands fa-github fa-lg"></i>
                                       </button>
