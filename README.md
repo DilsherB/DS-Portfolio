@@ -99,7 +99,7 @@ After you're finished please remove all the comments and instructions!
 
 > click to see live demo.
 
-- [Live Demo Link](https://dilsherb.github.io/Portfolio/)
+- [Live Demo Link](https://dilsherb.github.io/DS-Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
