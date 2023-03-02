@@ -10,23 +10,23 @@ navLinks.forEach((n) => {
 const projects = [
   {
     id: 1,
-    name: 'Multi-post Stories',
-    company: 'Gain+Glory',
-    description: 'This project was built for a multinational company. In it I applied E-commerce. User will be able to add the items in cart and on check out he can select payment method. He also can add delivery address.',
-    featureImage: 'project1.svg',
-    tools: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
-    liveVersion: 'https://dilsherb.github.io/Portfolio/',
-    source: 'https://github.com/DilsherB/Portfolio',
+    name: 'All Awesome Books',
+    company: 'Microverse',
+    description: 'This is a simple project to add and delete books using "localStorage"',
+    featureImage: 'Awesome-book-initial.png',
+    tools: ['BootStrap', 'CSS', 'JavaScript', 'HTML'],
+    liveVersion: 'https://dilsherb.github.io/awesome-books-implimenting-ES6/',
+    source: 'https://github.com/DilsherB/awesome-books-implimenting-ES6',
   },
   {
     id: 2,
-    name: 'Multi-post Stories',
-    company: 'Gain+Glory',
+    name: 'TODO List',
+    company: 'for Practice',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featureImage: 'project2.svg',
-    tools: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
-    liveVersion: 'https://dilsherb.github.io/Portfolio/',
-    source: 'https://github.com/DilsherB/Portfolio',
+    featureImage: 'todo list.png',
+    tools: ['Webpack', 'CSS', 'JavaScript', 'HTML'],
+    liveVersion: 'https://dilsherb.github.io/TODO-List/dist/',
+    source: 'https://github.com/DilsherB/TODO-List',
   },
   {
     id: 3,
@@ -55,8 +55,8 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     featureImage: 'project1.svg',
     tools: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
-    liveVersion: 'https://dilsherb.github.io/Portfolio/',
-    source: 'https://github.com/DilsherB/Portfolio',
+    liveVersion: 'https://dilsherb.github.io/awesome-books-implimenting-ES6/',
+    source: 'https://github.com/DilsherB/awesome-books-implimenting-ES6',
   },
   {
     id: 6,
@@ -77,10 +77,10 @@ projects.forEach((project) => {
   <section class="row d-flex justify-content-around">
     
         <div class="card my-3 py-3">
-            <img src="images/${project.featureImage}" alt="Project ${project.id}">
+            <img src="images/${project.featureImage}" alt="Project ${project.id}" width="450px" height="250px">
             <div class="card-body">
                 <h3 class="card-title text-center">${project.name}<br> ${project.company}</h3>
-                <div class="d-flex gap-1">
+                <div class="d-flex gap-1 justify-content-center">
                     <button class="btn btn-secondary btn-outline-success rounded-3" disabled>${project.tools[0]}</button>
                     <button class="btn btn-secondary btn-outline-success rounded-3" disabled>${project.tools[1]}</button>
                     <button class="btn btn-secondary btn-outline-success rounded-3" disabled>${project.tools[2]}</button>
