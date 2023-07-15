@@ -25,7 +25,7 @@ const projects = [
     description: 'Hi! Here I used localStorage to impliment the CRUD functionality. For further detail please click "see live" or "see source".',
     featureImage: 'todo list.png',
     tools: ['Webpack', 'CSS', 'JavaScript', 'HTML'],
-    liveVersion: 'https://dilsherb.github.io/TODO-List/dist/',
+    liveVersion: 'https://dilsherb.github.io/OS-conference/',
     source: 'https://github.com/DilsherB/TODO-List',
   },
   {
