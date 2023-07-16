@@ -73,7 +73,7 @@ const projects = [
     name: 'Space Travellors Hub',
     company: 'Microverse',
     description: 'Another project to show API data with routes. Styling it. doing it collaboratively.',
-    featureImage: 'spaceTravelorsHub.jpg',
+    featureImage: '../images/spaceTravelorsHub.JPG',
     tools: ['React', 'CSS/Tailwind', 'API', 'HTML'],
     liveVersion: 'https://spacetravelorshub.onrender.com/',
     source: 'https://github.com/DilsherB/Space-Travelers-Hub.git',
