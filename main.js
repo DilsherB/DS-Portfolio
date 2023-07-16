@@ -21,7 +21,7 @@ const projects = [
   {
     id: 2,
     name: 'TODO List',
-    company: 'for Practice',
+    company: 'Microverse',
     description: 'Hi! Here I used localStorage to impliment the CRUD functionality. For further detail please click "see live" or "see source".',
     featureImage: 'todo list.png',
     tools: ['Webpack', 'CSS', 'JavaScript', 'HTML'],
@@ -31,8 +31,8 @@ const projects = [
   {
     id: 3,
     name: 'OS conference',
-    company: 'Dummy',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    company: 'Microverse',
+    description: 'It is a dummy page for OS Conference.',
     featureImage: 'OS conference.png',
     tools: ['CSS', 'JavaScript', 'HTML', 'FontAwesome'],
     liveVersion: 'https://dilsherb.github.io/OS-conference/',
@@ -50,23 +50,43 @@ const projects = [
   },
   {
     id: 5,
-    name: 'Multi-post Stories',
-    company: 'Gain+Glory',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featureImage: 'project1.svg',
-    tools: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
-    liveVersion: 'https://dilsherb.github.io/awesome-books-implimenting-ES6/',
-    source: 'https://github.com/DilsherB/awesome-books-implimenting-ES6',
+    name: 'Covid Updated Data',
+    company: 'Microverse',
+    description: 'Here I created a website to see Covid-19 Data',
+    featureImage: 'covid.jpg',
+    tools: ['React', 'TailwindCSS', 'Axios/API', 'HTML'],
+    liveVersion: 'https://capstone-h4wy.onrender.com/',
+    source: 'https://github.com/DilsherB/covid-data-capstone-project-with-react-redux.git',
   },
   {
     id: 6,
-    name: 'Multi-post Stories',
-    company: 'Gain+Glory',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featureImage: 'project2.svg',
-    tools: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
-    liveVersion: 'https://dilsherb.github.io/Portfolio/',
-    source: 'https://github.com/DilsherB/Portfolio',
+    name: 'TV Maze App',
+    company: 'Microverse',
+    description: 'Here I am using API to fetch and show data using axios in React and styled it with css',
+    featureImage: 'tvmaze.jpg',
+    tools: ['WebPack', 'CSS', 'JavaScript', 'HTML'],
+    liveVersion: 'https://jscapstone-dilsher.netlify.app/',
+    source: 'https://github.com/DilsherB/JSCapstone.git',
+  },
+  {
+    id: 7,
+    name: 'Space Travellors Hub',
+    company: 'Microverse',
+    description: 'Another project to show API data with routes. Styling it. doing it collaboratively.',
+    featureImage: 'spaceTravelorsHub.jpg',
+    tools: ['React', 'CSS/Tailwind', 'API', 'HTML'],
+    liveVersion: 'https://spacetravelorshub.onrender.com/',
+    source: 'https://github.com/DilsherB/Space-Travelers-Hub.git',
+  },
+  {
+    id: 8,
+    name: 'React App with Search Functionality',
+    company: 'Microverse',
+    description: 'Another solo react project with search functionality. It uses API and fetch data. It uses bootstrap for styling.',
+    featureImage: 'search.jpg',
+    tools: ['React', 'CSS/Bootstrap', 'API', 'HTML'],
+    liveVersion: 'https://dilsher-react-search.netlify.app/',
+    source: 'https://github.com/DilsherB/react-recipe.git',
   },
 ];
 
@@ -110,25 +130,25 @@ projects.forEach((project) => {
                                     </a>
                                   </div>
                                 </div>
-                                  <ul class="mx-2 p-0 d-flex" id="body${project.id}">
-                                      <li class="btn btn-sm rounded-pill langsBg" disabled>${project.tools[0]}</li>
-                                      <li class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[1]}</li>
-                                      <li class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[2]}</li>
-                                      <li class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[3]}</li>
-                                  </ul>
-                                <div class="mx-2"> ${project.description}</div>
-                                <div class="d-flex justify-content-center gap-3 mb-2" id="modalBtnsMb">
-                                    <a href="${project.liveVersion}" target="_blank">  
-                                      <button type="button" class="btn btn-success px-1">See live
-                                        <i class="fa fa-arrow-up-right-from-square fa-lg"></i>
-                                      </button>
-                                    </a>
-                                    <a href="${project.source}" target="_blank">
-                                      <button type="button" class="btn btn-success px-1">See source
-                                        <i class="fa-brands fa-github fa-lg"></i>
-                                      </button>
-                                    </a>
+                                  <div class="d-flex gap-1 justify-content-start mb-3" id="body${project.id}">
+                                      <button class="btn btn-sm rounded-pill langsBg" disabled>${project.tools[0]}</button>
+                                      <button class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[1]}</button>
+                                      <button class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[2]}</button>
+                                      <button class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[3]}</button>
                                   </div>
+                                <div class="mx-2 d-flex justify-content-left"> ${project.description}</div>
+                                <div class="d-flex justify-content-center gap-3 mb-2" id="modalBtnsMb">
+                                  <a href="${project.liveVersion}" target="_blank">  
+                                    <button type="button" class="btn btn-success px-1">See live
+                                      <i class="fa fa-arrow-up-right-from-square fa-lg"></i>
+                                    </button>
+                                  </a>
+                                  <a href="${project.source}" target="_blank">
+                                    <button type="button" class="btn btn-success px-1">See source
+                                      <i class="fa-brands fa-github fa-lg"></i>
+                                    </button>
+                                  </a>
+                                </div>
                             </div>
                         </div>
                     </div>
