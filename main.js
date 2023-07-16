@@ -68,6 +68,16 @@ const projects = [
     liveVersion: 'https://jscapstone-dilsher.netlify.app/',
     source: 'https://github.com/DilsherB/JSCapstone.git',
   },
+  {
+    id: 7,
+    name: 'Space Travellors Hub',
+    company: 'Microverse',
+    description: 'Another project to show API data with routes. Styling it. doing it collaboratively.',
+    featureImage: 'spaceTravelorsHub.jpg',
+    tools: ['React', 'CSS/Tailwind', 'API', 'HTML'],
+    liveVersion: 'https://spacetravelorshub.onrender.com/',
+    source: 'https://github.com/DilsherB/Space-Travelers-Hub.git',
+  },
 ];
 
 const myProjetcs = document.querySelector('#recentWorks');
