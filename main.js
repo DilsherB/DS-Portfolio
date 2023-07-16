@@ -78,6 +78,16 @@ const projects = [
     liveVersion: 'https://spacetravelorshub.onrender.com/',
     source: 'https://github.com/DilsherB/Space-Travelers-Hub.git',
   },
+  {
+    id: 8,
+    name: 'React App with Search Functionality',
+    company: 'Microverse',
+    description: 'Another solo react project with search functionality. It uses API and fetch data. It uses bootstrap for styling.',
+    featureImage: 'search.jpg',
+    tools: ['React', 'CSS/Bootstrap', 'API', 'HTML'],
+    liveVersion: 'https://dilsher-react-search.netlify.app/',
+    source: 'https://github.com/DilsherB/react-recipe.git',
+  },
 ];
 
 const myProjetcs = document.querySelector('#recentWorks');
@@ -126,19 +136,19 @@ projects.forEach((project) => {
                                       <button class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[2]}</button>
                                       <button class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[3]}</button>
                                   </div>
-                                <div class="mx-2 d-flex"> ${project.description}</div>
+                                <div class="mx-2 d-flex justify-content-left"> ${project.description}</div>
                                 <div class="d-flex justify-content-center gap-3 mb-2" id="modalBtnsMb">
-                                    <a href="${project.liveVersion}" target="_blank">  
-                                      <button type="button" class="btn btn-success px-1">See live
-                                        <i class="fa fa-arrow-up-right-from-square fa-lg"></i>
-                                      </button>
-                                    </a>
-                                    <a href="${project.source}" target="_blank">
-                                      <button type="button" class="btn btn-success px-1">See source
-                                        <i class="fa-brands fa-github fa-lg"></i>
-                                      </button>
-                                    </a>
-                                  </div>
+                                  <a href="${project.liveVersion}" target="_blank">  
+                                    <button type="button" class="btn btn-success px-1">See live
+                                      <i class="fa fa-arrow-up-right-from-square fa-lg"></i>
+                                    </button>
+                                  </a>
+                                  <a href="${project.source}" target="_blank">
+                                    <button type="button" class="btn btn-success px-1">See source
+                                      <i class="fa-brands fa-github fa-lg"></i>
+                                    </button>
+                                  </a>
+                                </div>
                             </div>
                         </div>
                     </div>
