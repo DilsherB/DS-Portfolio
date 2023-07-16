@@ -60,13 +60,13 @@ const projects = [
   },
   {
     id: 6,
-    name: 'Multi-post Stories',
-    company: 'Gain+Glory',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featureImage: 'project2.svg',
-    tools: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
-    liveVersion: 'https://dilsherb.github.io/Portfolio/',
-    source: 'https://github.com/DilsherB/Portfolio',
+    name: 'TV Maze App',
+    company: 'Microverse',
+    description: 'Here I am using API to fetch and show data using axios in React and styled it with css',
+    featureImage: 'tvmaze.jpg',
+    tools: ['WebPack', 'CSS', 'JavaScript', 'HTML'],
+    liveVersion: 'https://jscapstone-dilsher.netlify.app/',
+    source: 'https://github.com/DilsherB/JSCapstone.git',
   },
 ];
 
@@ -110,13 +110,13 @@ projects.forEach((project) => {
                                     </a>
                                   </div>
                                 </div>
-                                  <ul class="mx-2 p-0 d-flex" id="body${project.id}">
-                                      <li class="btn btn-sm rounded-pill langsBg" disabled>${project.tools[0]}</li>
-                                      <li class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[1]}</li>
-                                      <li class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[2]}</li>
-                                      <li class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[3]}</li>
-                                  </ul>
-                                <div class="mx-2"> ${project.description}</div>
+                                  <div class="d-flex gap-1 justify-content-start mb-3" id="body${project.id}">
+                                      <button class="btn btn-sm rounded-pill langsBg" disabled>${project.tools[0]}</button>
+                                      <button class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[1]}</button>
+                                      <button class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[2]}</button>
+                                      <button class="btn ms-2 btn-sm rounded-pill langsBg" disabled>${project.tools[3]}</button>
+                                  </div>
+                                <div class="mx-2 d-flex"> ${project.description}</div>
                                 <div class="d-flex justify-content-center gap-3 mb-2" id="modalBtnsMb">
                                     <a href="${project.liveVersion}" target="_blank">  
                                       <button type="button" class="btn btn-success px-1">See live
