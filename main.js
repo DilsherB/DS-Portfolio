@@ -1,82 +1,90 @@
-const navLinks = document.querySelectorAll('.nav-item');
-const menuToggle = document.getElementById('collapsibleNavbar');
+const navLinks = document.querySelectorAll(".nav-item");
+const menuToggle = document.getElementById("collapsibleNavbar");
 
 // eslint-disable-next-line no-undef
 const bsCollapse = new bootstrap.Collapse(menuToggle);
 navLinks.forEach((n) => {
-  n.addEventListener('click', () => { bsCollapse.toggle(); });
+  n.addEventListener("click", () => {
+    bsCollapse.toggle();
+  });
 });
 
 const projects = [
   {
     id: 1,
-    name: 'All Awesome Books',
-    company: 'Microverse',
-    description: 'This is a simple project to add and delete books using "localStorage"',
-    featureImage: 'Awesome-book-initial.png',
-    tools: ['BootStrap', 'CSS', 'JavaScript', 'HTML'],
-    liveVersion: 'https://dilsherb.github.io/awesome-books-implimenting-ES6/',
-    source: 'https://github.com/DilsherB/awesome-books-implimenting-ES6',
+    name: "All Awesome Books",
+    company: "Microverse",
+    description:
+      'This is a simple project to add and delete books using "localStorage"',
+    featureImage: "Awesome-book-initial.png",
+    tools: ["BootStrap", "CSS", "JavaScript", "HTML"],
+    liveVersion: "https://dilsherb.github.io/awesome-books-implimenting-ES6/",
+    source: "https://github.com/DilsherB/awesome-books-implimenting-ES6",
   },
   {
     id: 2,
-    name: 'TODO List',
-    company: 'Microverse',
-    description: 'Hi! Here I used localStorage to impliment the CRUD functionality. For further detail please click "see live" or "see source".',
-    featureImage: 'todo list.png',
-    tools: ['Webpack', 'CSS', 'JavaScript', 'HTML'],
-    liveVersion: 'https://dilsherb.github.io/TODO-List/dist/',
-    source: 'https://github.com/DilsherB/TODO-List',
+    name: "TODO List",
+    company: "Microverse",
+    description:
+      'Hi! Here I used localStorage to impliment the CRUD functionality. For further detail please click "see live" or "see source".',
+    featureImage: "todo list.png",
+    tools: ["Webpack", "CSS", "JavaScript", "HTML"],
+    liveVersion: "https://dilsherb.github.io/TODO-List/dist/",
+    source: "https://github.com/DilsherB/TODO-List",
   },
   {
     id: 3,
-    name: 'OS conference',
-    company: 'Microverse',
-    description: 'It is a dummy page for OS Conference.',
-    featureImage: 'OS conference.png',
-    tools: ['CSS', 'JavaScript', 'HTML', 'FontAwesome'],
-    liveVersion: 'https://dilsherb.github.io/OS-conference/',
-    source: 'https://github.com/DilsherB/OS-conference',
+    name: "OS conference",
+    company: "Microverse",
+    description: "It is a dummy page for OS Conference.",
+    featureImage: "OS conference.png",
+    tools: ["CSS", "JavaScript", "HTML", "FontAwesome"],
+    liveVersion: "https://dilsherb.github.io/OS-conference/",
+    source: "https://github.com/DilsherB/OS-conference",
   },
   {
     id: 4,
-    name: 'Portfolio',
-    company: 'Myself',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featureImage: 'portfolio.png',
-    tools: ['BootStrap', 'CSS', 'JavaScript', 'HTML'],
-    liveVersion: 'https://dilsherb.github.io/Portfolio/',
-    source: 'https://github.com/DilsherB/DS-Portfolio',
+    name: "Portfolio",
+    company: "Myself",
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    featureImage: "portfolio.png",
+    tools: ["BootStrap", "CSS", "JavaScript", "HTML"],
+    liveVersion: "https://dilsherb.github.io/Portfolio/",
+    source: "https://github.com/DilsherB/DS-Portfolio",
   },
   {
     id: 5,
-    name: 'Covid Updated Data',
-    company: 'Microverse',
-    description: 'Here I created a website to see Covid-19 Data',
-    featureImage: 'covid.png',
-    tools: ['React', 'TailwindCSS', 'Axios/API', 'HTML'],
-    liveVersion: 'https://capstone-h4wy.onrender.com/',
-    source: 'https://github.com/DilsherB/covid-data-capstone-project-with-react-redux.git',
+    name: "Covid Updated Data",
+    company: "Microverse",
+    description: "Here I created a website to see Covid-19 Data",
+    featureImage: "covid.png",
+    tools: ["React", "TailwindCSS", "Axios/API", "HTML"],
+    liveVersion: "https://capstone-h4wy.onrender.com/",
+    source:
+      "https://github.com/DilsherB/covid-data-capstone-project-with-react-redux.git",
   },
   {
     id: 6,
-    name: 'TV Maze App',
-    company: 'Microverse',
-    description: 'Here I am using API to fetch and show data using axios in React and styled it with css',
-    featureImage: 'tvmaze.png',
-    tools: ['WebPack', 'CSS', 'JavaScript', 'HTML'],
-    liveVersion: 'https://jscapstone-dilsher.netlify.app/',
-    source: 'https://github.com/DilsherB/JSCapstone.git',
+    name: "TV Maze App",
+    company: "Microverse",
+    description:
+      "Here I am using API to fetch and show data using axios in React and styled it with css",
+    featureImage: "tvmaze.png",
+    tools: ["WebPack", "CSS", "JavaScript", "HTML"],
+    liveVersion: "https://jscapstone-dilsher.netlify.app/",
+    source: "https://github.com/DilsherB/JSCapstone.git",
   },
   {
     id: 7,
-    name: 'Space Travellors Hub',
-    company: 'Microverse',
-    description: 'Another project to show API data with routes. Styling it. doing it collaboratively.',
-    featureImage: 'spaceTravelorsHub.png',
-    tools: ['React', 'CSS/Tailwind', 'API', 'HTML'],
-    liveVersion: 'https://spacetravelorshub.onrender.com/',
-    source: 'https://github.com/DilsherB/Space-Travelers-Hub.git',
+    name: "Space Travellors Hub",
+    company: "Microverse",
+    description:
+      "Another project to show API data with routes. Styling it. doing it collaboratively.",
+    featureImage: "spaceTravelorsHub.png",
+    tools: ["React", "CSS/Tailwind", "API", "HTML"],
+    liveVersion: "https://spacetravelorshub.onrender.com/",
+    source: "https://github.com/DilsherB/Space-Travelers-Hub.git",
   },
   {
     id: 8,
@@ -87,12 +95,34 @@ const projects = [
     tools: ['React', 'CSS/Bootstrap', 'API', 'HTML'],
     liveVersion: 'https://dilsher-react-search.netlify.app/',
     source: 'https://github.com/DilsherB/react-recipe.git',
-  }
+  },
+  {
+    id: 9,
+    name: "Budget App",
+    company: "Microverse",
+    description:
+      "An app to manage budget. You can create categories to record your transactions. You can record your transactions to look back and manage.",
+    featureImage: "budget app.png",
+    tools: ["Rails", "CSS", "Tailwind", "HTML"],
+    liveVersion: "https://ror-budget-maker.onrender.com/",
+    source: "https://github.com/DilsherB/ror-budget-maker.git",
+  },
+  {
+    id: 10,
+    name: "API with Search Functionality",
+    company: "Microverse",
+    description:
+      "Another solo react project with search functionality. It uses API and fetch data. It uses bootstrap for styling.",
+    featureImage: "search.png",
+    tools: ["React", "CSS/Bootstrap", "API", "HTML"],
+    liveVersion: "https://dilsher-react-search.netlify.app/",
+    source: "https://github.com/DilsherB/react-recipe.git",
+  },
 ];
 
-const myProjetcs = document.querySelector('#recentWorks');
+const myProjetcs = document.querySelector("#recentWorks");
 projects.forEach((project) => {
-  const works = document.createElement('works');
+  const works = document.createElement("works");
   works.innerHTML = `
   <section class="row d-flex justify-content-around">
     
@@ -161,11 +191,12 @@ projects.forEach((project) => {
 });
 
 // form validation (only email)
-const email = document.querySelector('#email').value;
-const form = document.querySelector('#contact');
-form.addEventListener('submit', (event) => {
+const email = document.querySelector("#email").value;
+const form = document.querySelector("#contact");
+form.addEventListener("submit", (event) => {
   if (email !== email.toLowerCase()) {
     event.preventDefault();
-    document.getElementById('validationMsg').innerHTML = 'Please use all small letters in Email';
+    document.getElementById("validationMsg").innerHTML =
+      "Please use all small letters in Email";
   }
 });
