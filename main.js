@@ -88,6 +88,16 @@ const projects = [
     liveVersion: 'https://dilsher-react-search.netlify.app/',
     source: 'https://github.com/DilsherB/react-recipe.git',
   },
+  {
+    id: 9,
+    name: 'Car Rental App',
+    company: 'Microverse',
+    description: 'It is a car rental app, using Ruby on Rails API as backend and React as frontend.',
+    featureImage: 'car.png',
+    tools: ['React', 'CSS/Bootstrap', 'Rails-API', 'HTML'],
+    liveVersion: 'https://vehicle-company.onrender.com/',
+    source: 'https://github.com/DilsherB/backend-final-capstone',
+  },
 ];
 
 const myProjetcs = document.querySelector('#recentWorks');
