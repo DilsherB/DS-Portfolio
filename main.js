@@ -133,7 +133,7 @@ const projects = [
     id: 10,
     name: 'Bookstore App',
     company: 'Microverse',
-    description: 'An app in which you can add and remove books.',
+    description: 'An app in which you can add and remove books to make them favourite.',
     featureImage: 'bookstore.png',
     tools: ['React', 'Bootstrap', 'CSS', 'HTML'],
     liveVersion: 'https://bookstore-yk2v.onrender.com/',
