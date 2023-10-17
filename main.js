@@ -98,6 +98,16 @@ const projects = [
     liveVersion: 'https://vehicle-company.onrender.com/',
     source: 'https://github.com/DilsherB/backend-final-capstone',
   },
+  {
+    id: 10,
+    name: 'Bookstore App',
+    company: 'Microverse',
+    description: 'An app in which you can add and remove books.',
+    featureImage: 'bookstore.png',
+    tools: ['React', 'Bootstrap', 'CSS', 'HTML'],
+    liveVersion: 'https://bookstore-yk2v.onrender.com/',
+    source: 'https://github.com/DilsherB/bookstore',
+  },
 ];
 
 const myProjetcs = document.querySelector('#recentWorks');
