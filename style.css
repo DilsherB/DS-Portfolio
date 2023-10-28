@@ -20,6 +20,13 @@ body {
   height: 100vh;
 }
 
+nav a:hover {
+  color: green !important;
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 3px 10px;
+}
+
 .langsBg {
   background-color: #cad2df;
 }
@@ -37,8 +44,24 @@ body {
   color: red;
 }
 
+#recentWorks {
+  background-color: #344563;
+  border-radius: 10px;
+}
+
+.active {
+  color: green !important;
+  background: #fdfafd !important;
+  border-bottom: 3px solid green;
+  padding-bottom: 0;
+}
+
 @media only screen and (min-width: 580px) {
   .nav-item > .fa {
+    display: none;
+  }
+
+  nav button {
     display: none;
   }
 

@@ -1,237 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.0/css/all.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.0/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Dilsher(developer)'s Portfolio</title>
-</head>
-<body>
-    <nav class="container-fluid navbar navbar-expand-sm fixed-top navbar-light bg-light shadow-lg rounded-bottom">
-        <div class="container rounded-bottom">
-            <div>
-                <img src="images/Farhan.jpeg" alt="brand logo" class="rounded-circle" width="50px" height="50px">
-                <a class="navbar-brand" href="#">Dilsher</a>
-            </div>
-            <button class="navbar-toggler" type="button" id="menu" data-bs-toggle="collapse" 
-                data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end bg-primar " id="collapsibleNavbar">
-                <ul class="navbar-nav nav-height">
-                    <li class="nav-item">
-                        <i class="nav-link dropdown-item fa fa-close text-center"></i>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link dropdown-item text-center" id="nav-link" 
-                            href="#recentWorks">Portfolio
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link dropdown-item text-center" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link dropdown-item text-center" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+  </head>
+  <body>
+    <nav
+      class="container-fluid navbar navbar-expand-sm fixed-top navbar-light bg-light shadow-lg rounded-bottom"
+    >
+      <div>
+        <img
+          src="images/Rectangle.png"
+          alt="brand logo"
+          width="50px"
+          height="50px"
+        />
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        id="menu"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <button
+        class="navbar-toggler close-button py-2 px-3"
+        type="button"
+        id="close"
+        style="display: none"
+      >
+        <span>&times;</span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end bg-primar"
+        id="collapsibleNavbar"
+      >
+        <ul class="navbar-nav nav-height">
+          <li class="nav-item">
+            <a
+              class="nav-link dropdown-item text-center"
+              id="nav-link"
+              href="#home"
+              >Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link dropdown-item text-center"
+              id="nav-link"
+              href="#portfolio"
+              >Portfolio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link dropdown-item text-center" href="#about"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link dropdown-item text-center" href="#contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
     </nav>
 
-    <div class="container-fluid bg-image bg-white text-center p-5 rounded-3"
-        style="background-image: url('images/desktopIntroBG.svg'); 
-                background-size: contain; 
-                background-position: center; 
-                background-repeat: no-repeat;">
-        <h1 class="container p-5">I'am Dilsher <br>Glad to see you!</h1>
-        <p class="mb-5">
-            I’m a software developer! I can help you build a product, 
-            feature or website Look through some of my work and 
-            experience! If you like what you see and have a project 
-            you need coded, don’t hestiate to contact me. 
-        </p>
-        <h3>LET'S CONNECT</h3>
-        <a href="https://twitter.com/_brilliantMindz" target="_blank">
-            <button class="btn btn-outline-primary" type="button">
-                <span> 
-                    <i class="fa-brands fa-twitter"></i>
-                </span> 
-                <span>Twitter</span>
-            </button>
-        </a>
-        <a href="https://www.facebook.com/dilsherb" target="_blank">
-            <button class="btn btn-outline-primary" type="button">
-                <span> 
-                    <i class="fa-brands fa-facebook"></i>
-                </span> 
-                <span>Facebook</span>
-            </button>
-        </a>
-        <a href="https://www.linkedin.com/in/brilliantmindz/" target="_blank">
-            <button class="btn btn-outline-primary" type="button">
-                <span>
-                    <i class="fa-brands fa-linkedin"></i>
-                </span> 
-                <span>LinkedIn</span>
-            </button>
-        </a>
-        <a href="https://wa.me/+966562680406" target="_blank">
-            <button class="btn btn-outline-success" type="button">
-                <span> 
-                    <i class="fa-brands fa-whatsapp"></i>
-                </span> 
-                <span>Whatsapp</span>
-            </button>
-        </a>
-        <a href="https://github.com/DilsherB" target="_blank">
-            <button class="btn btn-outline-dark" type="button">
-                <span>
-                    <i class="fa-brands fa-github"></i>
-                </span> 
-                <span>GitHub</span>
-            </button>
-        </a>
-    </div>
-<hr class="bg-white fw-bolder">
-    <section class="container-fluid bg-white rounded-3">
-        <h2 class="text-center p-5 text-decoration-underline fs-1">My recent works</h2>
-        <div class="d-flex flex-wrap justify-content-around gap-3 p-5" id="recentWorks">
-
-        </div>
+    <section class="container-fluid bg-image bg-white text-center p-5 rounded-3" id="home"
+      style="
+        background-image: url('images/desktopIntroBG.svg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+      "
+    >
+      <h1 class="container p-5">I'am Dilsher <br />Glad to see you!</h1>
+      <p class="mb-5">
+        I am a dedicated software developer based in Al-Khobar, Saudi Arabia.
+        With a master's in computer sciences and practical training from
+        Microverse, I specialize in HTML, CSS, JavaScript, React.js, Ruby, Ruby
+        on Rails, and more. My GitHub showcases my projects, and I've also
+        excelled as an Accountant and SAP Administrator, introducing innovative
+        solutions. I'm excited about the
+        <span><b>"UI/UX and full stack Developer"</b></span> role.
+      </p>
+      <h3>LET'S CONNECT</h3>
+      <a href="https://twitter.com/_brilliantMindz" target="_blank">
+        <button class="btn btn-outline-primary" type="button">
+          <span>
+            <i class="fa-brands fa-twitter"></i>
+          </span>
+          <span>Twitter</span>
+        </button>
+      </a>
+      <a href="https://www.facebook.com/dilsherb" target="_blank">
+        <button class="btn btn-outline-primary" type="button">
+          <span>
+            <i class="fa-brands fa-facebook"></i>
+          </span>
+          <span>Facebook</span>
+        </button>
+      </a>
+      <a href="https://www.linkedin.com/in/brilliantmindz/" target="_blank">
+        <button class="btn btn-outline-primary" type="button">
+          <span>
+            <i class="fa-brands fa-linkedin"></i>
+          </span>
+          <span>LinkedIn</span>
+        </button>
+      </a>
+      <a href="https://wa.me/+966562680406" target="_blank">
+        <button class="btn btn-outline-success" type="button">
+          <span>
+            <i class="fa-brands fa-whatsapp"></i>
+          </span>
+          <span>Whatsapp</span>
+        </button>
+      </a>
+      <a href="https://github.com/DilsherB" target="_blank">
+        <button class="btn btn-outline-dark" type="button">
+          <span>
+            <i class="fa-brands fa-github"></i>
+          </span>
+          <span>GitHub</span>
+        </button>
+      </a>
     </section>
 
-    <hr class="bg-white">
+    <section class="container-fluid rounded-3 py-3" id="portfolio">
+      <h2 class="text-center text-decoration-underline fs-1 text-white mt-5">
+        My recent works
+      </h2>
+      <div
+        class="d-flex flex-wrap justify-content-around gap-3 p-5"
+        id="recentWorks"
+      ></div>
+    </section>
+
     <section class="container-fluid bg-white bg-image text-center py-5 rounded-3" id="about">
-        <div style="background-image: url('images/aboutMe.svg'); 
-                background-size: contain; 
-                background-position: center; 
-                background-repeat: no-repeat;">
-        
-            <div class="py-5 mx-5">
-                <h2 class="mb-3">About Me</h2>
-                <div class="row justify-content-center">
-                    <p class="col-md-8"> I can help you build a product , feature or website Look through some of my work and 
-                        experience! If you like what you see and have a project you need coded, don’t hestiate 
-                        to contact me.
-                    </p>
-                </div>
-                <a href="Docs/Short CV.pdf" target="_blank" class="btn btn-success">Get My Resume</a>
-            </div>
+      <div
+        style="
+          background-image: url('images/aboutMe.svg');
+          background-size: contain;
+          background-position: center;
+          background-repeat: no-repeat;
+        "
+      >
+        <div class="py-5 mx-5">
+          <h2 class="mb-3">About Me</h2>
+          <div class="row justify-content-center">
+            <p class="col-md-8">
+              I can help you build a product , feature or website Look through
+              some of my work and experience! If you like what you see and have
+              a project you need coded, don’t hestiate to contact me.
+            </p>
+          </div>
+          <a href="Docs/Short CV.pdf" target="_blank" class="btn btn-success"
+            >Get My Resume</a
+          >
         </div>
-        
-        <div class="row px-5">
-            <div class="col-md-4 my-3">
-                <div class="card bg-light py-5 cardHeight">
-                    <img src="images/langsImg.png" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Languages</h5>
-                        <div class="row pt-4">
-                            <div>
-                                <button class="btn btn-outline-success">JavaScrip</button>
-                                <button class="btn btn-outline-success">Ruby</button>
-                                <button class="btn btn-outline-success">HTML</button>
-                                <button class="btn btn-outline-success">CSS</button>
-                            </div>
-                        </div>
-                    </div>
+      </div>
+
+      <div class="row px-5">
+        <div class="col-md-4 my-3">
+          <div class="card bg-light py-5 cardHeight">
+            <img src="images/langsImg.png" alt="" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Languages</h5>
+              <div class="row pt-4">
+                <div>
+                  <button class="btn btn-outline-success mb-2">JavaScrip</button>
+                  <button class="btn btn-outline-success mb-2">Ruby</button>
+                  <button class="btn btn-outline-success mb-2">HTML</button>
+                  <button class="btn btn-outline-success mb-2">CSS</button>
                 </div>
-            </div>    
-            <div class="col-md-4 my-3">
-                <div class="card bg-light py-5 cardHeight">
-                    <img src="images/frameworksImg.png" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Frameworks</h5>
-                        <div class="row pt-4">
-                            <div>
-                                <button class="btn btn-outline-success">Bootstrap</button>
-                                <button class="btn btn-outline-success">Ruby on rails</button>
-                                <button class="btn btn-outline-success">Rspec</button>
-                                <button class="btn btn-outline-success">Capybara</button>
-                                <button class="btn btn-outline-success">Selenium</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-            <div class="col-md-4 my-3">
-                <div class="card bg-light py-5 cardHeight">
-                    <img src="images/skillsImg.png" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Skills</h5>
-                        <div class="row pt-4">
-                            <div>
-                                <button class="btn btn-outline-success">Codekit</button>
-                                <button class="btn btn-outline-success">GitHub</button>
-                                <button class="btn btn-outline-success">Codepen</button>
-                                <button class="btn btn-outline-success">Terminal</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="col-md-4 my-3">
+          <div class="card bg-light py-5 cardHeight">
+            <img src="images/frameworksImg.png" alt="" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Frameworks</h5>
+              <div class="row pt-4">
+                <div>
+                  <button class="btn btn-outline-success mb-2">Bootstrap</button>
+                  <button class="btn btn-outline-success mb-2">Ruby on rails</button>
+                  <button class="btn btn-outline-success mb-2">Rspec</button>
+                  <button class="btn btn-outline-success mb-2">Capybara</button>
+                  <button class="btn btn-outline-success mb-2">Selenium</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-3">
+          <div class="card bg-light py-5 cardHeight">
+            <img src="images/skillsImg.png" alt="" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Skills</h5>
+              <div class="row pt-4">
+                <div>
+                  <button class="btn btn-outline-success mb-2">Codekit</button>
+                  <button class="btn btn-outline-success mb-2">GitHub</button>
+                  <button class="btn btn-outline-success mb-2">Codepen</button>
+                  <button class="btn btn-outline-success mb-2">Terminal</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <hr class="bg-white fw-bolder">
+    <hr class="bg-white fw-bolder" />
     <section class="container-fluid bg-white bg-image rounded-3 pt-5" id="contact">
-        <h2 class="bg-white text-center text-decoration-underline">Send a message</h2>
-        <div class="row mx-5 py-5">
-            <div class="col-md-5 fs-4 mt-5">
-                <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-            </div>
-            <div class="col-md-7">
-                <form action="https://formspree.io/f/mgebwzzy" method="post" id="contact">
-                    <div class="row">
-                        <input class="col-md-6 lh-lg rounded px-2 mb-3 formData" type="text" id="fName" name="fName" 
-                        placeholder="First Name" required>
-                        <input class="col-md-6 lh-lg rounded px-2 mb-3 formData" type="text" id="lName" name="lName" 
-                        placeholder="Last Name" required>
-                    </div>
-                    <div class="row">
-                        <input class="col-md-12 lh-lg rounded px-2 mb-3 formData" type="email" id="email" name="email" 
-                        placeholder="Email address" required>
-                    </div>
-                    <div class="row">
-                        <textarea name="msg" id="msg" cols="30" rows="5" class="col-md-12 lh-lg rounded px-2 formData" 
-                        required></textarea>
-                    </div>
-                    <span id="validationMsg"></span><br>
-                    <button id="submit" type="submit" class="row btn btn-success mt-2">Get in touch</button>
-                    <button id="reset" type="reset" class="row btn btn-success ms-5 mt-2">Reset</button>
-                </form>
-            </div>
+      <h2 class="bg-white text-center text-decoration-underline">
+        Send a message
+      </h2>
+      <div class="row mx-5 py-5">
+        <div class="col-md-5 fs-4 mt-5">
+          <p>
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </p>
         </div>
-    </section>
-    
-    <hr class="bg-white fw-bolder">
-    <div class="container-fluid">
-        <footer class="row bg-white pt-4 rounded-top">
-            <div class="col-md-5"></div>
-            <div class="pb-4 col-md-2 justify-content-around d-flex">
-                <a href="https://twitter.com/_brilliantMindz" target="_blank">
-                    <i class="fab fa-twitter fa-lg"></i>
-                </a>
-                <a href="https://www.facebook.com/dilsherb" target="_blank">
-                    <i class="fa-brands fa-facebook fa-lg"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/brilliantmindz/" target="_blank">
-                    <i class="fa-brands fa-linkedin fa-lg"></i>
-                </a>
-                <a href="https://wa.me/+966562680406" target="_blank">
-                    <i class="fa-brands fa-whatsapp fa-lg"></i>
-                </a>
-                <a href="https://github.com/DilsherB" target="_blank">
-                    <i class="fa-brands fa-github fa-lg"></i>
-                </a>
+        <div class="col-md-7">
+          <form
+            action="https://formspree.io/f/mgebwzzy"
+            method="post"
+            id="contact"
+          >
+            <div class="row">
+              <input
+                class="col-md-6 lh-lg rounded px-2 mb-3 formData"
+                type="text"
+                id="fName"
+                name="fName"
+                placeholder="First Name"
+                required
+              />
+              <input
+                class="col-md-6 lh-lg rounded px-2 mb-3 formData"
+                type="text"
+                id="lName"
+                name="lName"
+                placeholder="Last Name"
+                required
+              />
             </div>
-            <div class="col-md-5"></div>
-        </footer>
+            <div class="row">
+              <input
+                class="col-md-12 lh-lg rounded px-2 mb-3 formData"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email address"
+                required
+              />
+            </div>
+            <div class="row">
+              <textarea
+                name="msg"
+                id="msg"
+                cols="30"
+                rows="5"
+                class="col-md-12 lh-lg rounded px-2 formData"
+                required
+              ></textarea>
+            </div>
+            <span id="validationMsg"></span><br />
+            <button id="submit" type="submit" class="row btn btn-success mt-2">
+              Get in touch
+            </button>
+            <button
+              id="reset"
+              type="reset"
+              class="row btn btn-success ms-5 mt-2"
+            >
+              Reset
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <hr class="bg-white fw-bolder" />
+    <div class="container-fluid">
+      <footer class="row bg-white pt-4 rounded-top">
+        <div class="col-md-5"></div>
+        <div class="pb-4 col-md-2 justify-content-around d-flex">
+          <a href="https://twitter.com/_brilliantMindz" target="_blank">
+            <i class="fab fa-twitter fa-lg"></i>
+          </a>
+          <a href="https://www.facebook.com/dilsherb" target="_blank">
+            <i class="fa-brands fa-facebook fa-lg"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/brilliantmindz/" target="_blank">
+            <i class="fa-brands fa-linkedin fa-lg"></i>
+          </a>
+          <a href="https://wa.me/+966562680406" target="_blank">
+            <i class="fa-brands fa-whatsapp fa-lg"></i>
+          </a>
+          <a href="https://github.com/DilsherB" target="_blank">
+            <i class="fa-brands fa-github fa-lg"></i>
+          </a>
+        </div>
+        <div class="col-md-5"></div>
+      </footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <script src="main.js"></script>
     <script src="localStorage.js"></script>
-</body>
+  </body>
 </html>

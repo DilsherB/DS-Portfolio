@@ -1,11 +1,27 @@
-const navLinks = document.querySelectorAll(".nav-item");
-const menuToggle = document.getElementById("collapsibleNavbar");
+const navLinks = Array.from(document.querySelectorAll(".nav-item"));
+const menuToggle = document.getElementById("menu");
+const closeToggle = document.getElementById("close");
+const bsCollapse = new bootstrap.Collapse(document.getElementById("collapsibleNavbar"), {
+  toggle: false // Set 'toggle' option to 'false' to keep the menu closed by default
+});
 
-// eslint-disable-next-line no-undef
-const bsCollapse = new bootstrap.Collapse(menuToggle);
-navLinks.forEach((n) => {
-  n.addEventListener("click", () => {
+menuToggle.addEventListener("click", () => {
+  bsCollapse.toggle();
+  menuToggle.style.display = "none"; // Hide the open menu button
+  closeToggle.style.display = "block"; // Show the close button
+});
+
+closeToggle.addEventListener("click", () => {
+  bsCollapse.toggle();
+  closeToggle.style.display = "none"; // Hide the close button
+  menuToggle.style.display = "block"; // Show the open menu button
+});
+
+navLinks.forEach((navLink) => {
+  navLink.addEventListener("click", () => {
     bsCollapse.toggle();
+    closeToggle.style.display = "none"; // Hide the close button
+    menuToggle.style.display = "block"; // Show the open menu button
   });
 });
 
@@ -120,7 +136,7 @@ const projects = [
     source: "https://github.com/DilsherB/react-recipe.git",
   },
   {
-    id: 9,
+    id: 11,
     name: 'Car Rental App',
     company: 'Microverse',
     description: 'It is a car rental app, using Ruby on Rails API as backend and React as frontend.',
@@ -130,11 +146,11 @@ const projects = [
     source: 'https://github.com/DilsherB/backend-final-capstone',
   },
   {
-    id: 10,
+    id: 12,
     name: 'Bookstore App',
     company: 'Microverse',
     description: 'An app in which you can add and remove books to make them favourite.',
-    featureImage: 'bookstore.png',
+    featureImage: 'bookstore.jpg',
     tools: ['React', 'Bootstrap', 'CSS', 'HTML'],
     liveVersion: 'https://bookstore-yk2v.onrender.com/',
     source: 'https://github.com/DilsherB/bookstore',
