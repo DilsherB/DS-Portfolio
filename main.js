@@ -163,7 +163,7 @@ projects.forEach((project) => {
   works.innerHTML = `
   <section class="row d-flex justify-content-around">
     
-        <div class="card my-3 py-3">
+        <div class="card my-3 py-3 resize">
             <img src="./images/${project.featureImage}" alt="Project ${project.id}" width="450px" height="250px">
             <div class="card-body">
                 <h3 class="card-title text-center">${project.name}<br> ${project.company}</h3>
