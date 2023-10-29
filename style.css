@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
 
 *,
 *::after,
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Inter', 'lnter', sans-serif;
+  font-family: "Inter", "lnter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -71,7 +71,12 @@ nav a:hover {
   }
 }
 
-b {
+.name {
+  font-size: 40px;
+}
+
+b,
+.glow {
   /* background-color: green; */
   color: transparent;
   font-size: 25px;
@@ -86,10 +91,13 @@ b {
 }
 
 @keyframes animateText {
-  0%,95%,100% {
+  0%,
+  95%,
+  100% {
     background-position: -410px 0;
   }
-  65%,85% {
+  65%,
+  85% {
     background-position: 0 0;
   }
 }
