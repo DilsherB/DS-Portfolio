@@ -121,22 +121,6 @@ footer a i:hover {
   animation: rotate 2s ease;
 }
 
-.resize:hover {
-  animation: resize 1s ease;
-}
-
-@keyframes resize {
-  0% {
-    transform: scale(1) rotate(0deg);
-  }
-  50% {
-    transform: scale(1.2) rotate(30deg);
-  }
-  100% {
-    transform: scale(1) rotate(0deg);
-  }
-}
-
 @media only screen and (min-width: 580px) {
   .nav-item > .fa {
     display: none;
