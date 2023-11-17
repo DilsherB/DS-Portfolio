@@ -133,7 +133,7 @@ const projects = [
     company: "Microverse",
     description:
       "Another solo react project with search functionality. It uses API and fetch data. It uses bootstrap for styling.",
-    featureImage: "search.png",
+    featureImage: "salesorder.gif",
     tools: ["React", "CSS/Bootstrap", "API", "HTML"],
     liveVersion: "https://dilsher-react-search.netlify.app/",
     source: "https://github.com/DilsherB/react-recipe.git",
